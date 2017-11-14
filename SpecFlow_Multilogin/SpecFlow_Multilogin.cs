@@ -10,6 +10,7 @@ namespace SpecFlow_Multilogin
     [Binding]
     public class SpecFlow_Multilogin
     {
+
         public static IWebDriver driver;
         [Given(@"Open the google browser")]
         public void GivenOpenTheGoogleBrowser()
